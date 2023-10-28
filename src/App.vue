@@ -2,7 +2,7 @@
   <HeaderSection/>
   <ContentSection/>
   <AboutSection/>
-  <!-- <TestimonialsSection/> -->
+  <TestimonialsSection/>
   <!-- <FooterSection/> -->
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 </template>
@@ -10,9 +10,9 @@
 <script>
 import HeaderSection from './components/HeaderSection.vue'
 import ContentSection from './components/ContentSection.vue'
-// import HelloWorld from './components/HelloWorld.vue'
 import AboutSection from './components/AboutSection.vue'
-// import TestimonialsSection from './components/TestimonialsSection.vue'
+import TestimonialsSection from './components/TestimonialsSection.vue'
+// import HelloWorld from './components/HelloWorld.vue'
 // import FooterSection from './components/FooterSection.vue'
 
 export default {
@@ -20,9 +20,9 @@ export default {
   components: {
     HeaderSection,
     ContentSection,
-    AboutSection
+    AboutSection,
+    TestimonialsSection
     // HelloWorld,
-    // TestimonialsSection,
     // FooterSection
   }
 }
