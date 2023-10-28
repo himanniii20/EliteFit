@@ -1,6 +1,6 @@
 <template>
   <HeaderSection/>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <ContentSection/>
   <!-- <AboutSection/> -->
   <!-- <TestimonialsSection/> -->
   <!-- <FooterSection/> -->
@@ -9,6 +9,7 @@
 
 <script>
 import HeaderSection from './components/HeaderSection.vue'
+import ContentSection from './components/ContentSection.vue'
 // import HelloWorld from './components/HelloWorld.vue'
 // import AboutSection from './components/AboutSection.vue'
 // import TestimonialsSection from './components/TestimonialsSection.vue'
@@ -18,6 +19,7 @@ export default {
   name: 'App',
   components: {
     HeaderSection,
+    ContentSection
     // HelloWorld,
     // AboutSection,
     // TestimonialsSection,
