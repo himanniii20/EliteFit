@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-5 bg-dark row text-white">
+  <div id="footer" class="mt-5 bg-dark row text-white">
     <h2 class="mt-5">PISTONS</h2>
     <h4 class="mt-3">STAY CONNECTED</h4>
     <div class="mb-5 mt-2">
